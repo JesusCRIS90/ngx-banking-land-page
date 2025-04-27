@@ -1,0 +1,10 @@
+<bee-vertical-layout class="footer-sec">
+  <ul class="nav-container">
+    <bee-horizontal-layout [gap]="25">
+      @for (navItem of getNavItems(); track $index) {
+      <nav-item [navData]="getNavItem($index)" class="nav-item"/>
+      }
+    </bee-horizontal-layout>
+  </ul>
+  <bee-image [imageSrc]="getImage()" class="logo"/>
+</bee-vertical-layout>

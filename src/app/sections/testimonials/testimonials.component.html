@@ -1,0 +1,22 @@
+<section id="testimonials">
+  <bee-vertical-layout class="testimonials-sec">
+    <div class="title-container">
+      <h2 class="title">TESTIMONIALS</h2>
+      <h3 class="subtitle">Millions of Bankists are already making their lifes simpler.</h3>
+    </div>
+
+    <bee-grid-1d-layout [inputGridDistribution]="'5% 90% 5%'" class="content">
+      
+      <button (click)="previous()">
+        <bee-svg-icon [refName]="'arrow-left'" />
+      </button>
+
+      <testimonial-card [testomonial]="getTestimonial()" class="testimonial-card"/>
+
+      <button (click)="next()">
+        <bee-svg-icon [refName]="'arrow-right'" />
+      </button>
+
+    </bee-grid-1d-layout>
+  </bee-vertical-layout>
+</section>

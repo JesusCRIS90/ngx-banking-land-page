@@ -1,0 +1,35 @@
+<bee-floating-layout
+  [userClass]="'header-bar'"
+  [posX]="0"
+  [posY]="0"
+  [anchorPoint]="ANCHOR_POINT.TOP_LEFT"
+>
+  <bee-pair-layout
+    [spaceDistribution]="'30% auto'"
+    [pairDistribution]="POLICY.OPPOSITE"
+    [userClass]="'header-container'"
+  >
+    <a  [attr.href]="'#sec-home'">
+      <bee-horizontal-layout [gap]="20" [userClass]="'logo-container'">
+        <bee-image
+          [imgSize]="{ xSize: 70, ySize: 70 }"
+          [imageSrc]="getLogoImage()"
+          [userClass]="'logo'"
+        />
+        <p class="title">{{ getLogoName() }}</p>
+      </bee-horizontal-layout>
+    </a>
+
+    <nav class="nav-menu">
+      <ul>
+        <bee-horizontal-layout [gap]="30">
+          <nav-item [navData]="getNavItem(0)" />
+          <nav-item [navData]="getNavItem(1)" />
+          <nav-item [navData]="getNavItem(2)" />
+          <!-- <nav-item [navData]="getNavItem(3)" [id]="'call-to-action'" /> -->
+          <button (click)="openAccount()" class="open-account">Open Account</button>
+        </bee-horizontal-layout>
+      </ul>
+    </nav>
+  </bee-pair-layout>
+</bee-floating-layout>

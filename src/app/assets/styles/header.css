@@ -1,0 +1,94 @@
+.header-bar {
+  position: fixed !important;
+
+  z-index: 5;
+  opacity: 0.7;
+  width: 100%;
+  background-color: var(--color-background);
+  transition: all 3s;
+
+  .header-container {
+    width: 100%;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .logo-container {
+    cursor: pointer;
+    margin: 1rem 0rem;
+    padding: 0rem 2rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+  }
+
+  .logo{
+    width: 4rem;
+  }
+  
+  .nav-menu {
+
+    margin-right: 25px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+    }
+
+    .nav-item-link {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: var(--color-header);
+    }
+
+    .nav-item-link:hover {
+      color: var(--color-primary);
+    }
+
+    .open-account{
+      display: inline-block;
+      cursor: pointer;
+      border: none;
+      background: none;
+
+      background-color: var(--color-primary);
+      padding: .5rem 1.1rem;
+      border-radius: 3rem;
+
+      font-size: 1.4rem;
+    }
+
+    .open-account:hover{
+      color: var(--color-header);
+    }
+
+    #call-to-action{
+      background-color: var(--color-primary);
+      padding: .5rem 1.1rem;
+      border-radius: 3rem;
+      a{
+        color: var(--color-background);
+      }
+    }
+
+    #call-to-action:hover{
+      a{
+        color: var(--color-header);
+      }
+    }
+
+  }
+  
+}
+
+.header-bar:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}
+

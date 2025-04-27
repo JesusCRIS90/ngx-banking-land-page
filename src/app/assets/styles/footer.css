@@ -1,0 +1,34 @@
+.footer-sec {
+  background-color: var(--color-background);
+
+  .nav-container {
+    padding-top: 2rem;
+    list-style: none;
+
+    .nav-item {
+      font-size: 1.3rem;
+      a {
+        text-decoration: none;
+        color: var(--color-header);
+      }
+
+      a:hover {
+        color: var(--color-primary);
+      }
+    }
+
+  }
+
+  .logo {
+    margin: 0rem 0rem;
+    padding: 2rem 0rem;
+    img {
+      width: 4rem;
+    }
+  }
+}
+
+.footer-container .nav-bar-container .nav-item-link:hover {
+  color: var(--color-primary);
+  /* padding-top: 2rem; */
+}

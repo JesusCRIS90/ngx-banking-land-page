@@ -1,0 +1,26 @@
+<section id="features" class="feature-sec">
+    <bee-vertical-layout>
+  
+        <div class="title-container">
+            <h2 class="title">FEATURES</h2>
+            <h3 class="subtitle">Everything you need in a modern bank and more.</h3>
+        </div>
+    
+        <bee-grid-2d-layout
+            [userClass]="'features-container'"
+            [inputGrid2Distribution]="{ x: '1fr 1fr', y: '1fr 1fr 1fr' }">
+    
+            <bee-image [imageSrc]="'assets/images/digital.jpg'" />
+            <feature-card [feature]="getFeature(0)" class="feature-card"/>
+    
+            <feature-card [feature]="getFeature(1)" class="feature-card"/>
+            <bee-image [imageSrc]="'assets/images/grow.jpg'" />
+    
+            <bee-image [imageSrc]="'assets/images/card.jpg'" />
+            <feature-card [feature]="getFeature(2)" class="feature-card"/>
+    
+        </bee-grid-2d-layout>
+    
+    </bee-vertical-layout>
+    
+</section>

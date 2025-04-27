@@ -1,0 +1,9 @@
+<h5 class="title">{{ getTitle() }}</h5>
+<p class="text">{{ getText() }}</p>
+<bee-grid-1d-layout [inputGridDistribution]="'10% auto'" class="profile" [gap]="10">
+  <bee-image [imageSrc]="getPersonImage()" />
+    <bee-item-grid-layout [policyPos]="POLICY.CENTER_LEFT">
+      <h6>{{ getPersonName() }}</h6>
+      <p>{{ getPersonCountry() }}</p>
+    </bee-item-grid-layout>
+</bee-grid-1d-layout>

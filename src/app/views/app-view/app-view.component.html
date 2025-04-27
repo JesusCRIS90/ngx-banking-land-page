@@ -1,0 +1,13 @@
+@if ( loadedData() ) {
+    
+    <sec-header [data]="getHeaderData()" />
+    <sec-home />
+    <sec-features [data]="getFeaturesData()" class="feature-sec"/>
+    <sec-operations [data]="getOperationsData()" />
+    <sec-testimonials [data]="getTestimonialsData()" />
+    <sec-signup />
+    <sec-footer [data]="getFooterData()" />
+
+} @else {
+    <p>Error Loading Data</p>
+}

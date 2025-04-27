@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './app/assets/styles/variables.css';
+@import './app/assets/styles/header.css';
+@import './app/assets/styles/home.css';
+@import './app/assets/styles/features.css';
+@import './app/assets/styles/operations.css';
+@import './app/assets/styles/testimonials.css';
+@import './app/assets/styles/signup.css';
+@import './app/assets/styles/footer.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

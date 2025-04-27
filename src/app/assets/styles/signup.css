@@ -1,0 +1,93 @@
+.signup-sec {
+  background-color: var(--color-sign-up);
+
+  margin: 0rem 0rem;
+  padding: 3rem 0rem;
+  padding-bottom: 6rem;
+
+  .title {
+    color: #fff;
+    text-align: center;
+
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: inherit;
+
+    margin: 0rem 0rem;
+    padding: 3rem 0rem;
+    padding-bottom: 4rem;
+  }
+
+  .action {
+    display: inline-block;
+    justify-self: center;
+    cursor: pointer;
+
+    min-width: 32rem;
+    max-width: 35rem;
+    padding: 1.2rem 1rem;
+
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: 500;
+
+    border: none;
+
+    border-radius: 10rem;
+
+    background-color: var(--color-primary);
+    color: var(--color-background);
+
+    transition: all 0.3s;
+  }
+}
+
+.signup-section {
+  /* height: 30rem; */
+  background-color: var(--color-sign-up);
+
+  /* Properties to Development Only - Delete at the end */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0rem 0rem;
+  padding: 3rem 0rem;
+  padding-bottom: 6rem;
+}
+
+.signup-section h1 {
+  color: #fff;
+  text-align: center;
+
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: inherit;
+
+  margin: 0rem 0rem;
+  padding: 3rem 0rem;
+  padding-bottom: 4rem;
+}
+
+.signup-section button {
+  display: inline-block;
+  justify-self: center;
+  cursor: pointer;
+
+  min-width: 32rem;
+  max-width: 35rem;
+  padding: 1.2rem 1rem;
+
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 500;
+
+  border: none;
+
+  border-radius: 10rem;
+
+  background-color: var(--color-primary);
+  color: var(--color-background);
+
+  transition: all 0.3s;
+}
