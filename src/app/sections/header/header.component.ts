@@ -12,19 +12,20 @@ import {
   ImageComponent as Image
 } from "@beexy/ngx-components"
 
+import { ModalWindowService } from '@beexy/ngx-modals'
+
 import {
   NavItemComponent
 } from "../../components"
 
-import {
-  ModalWindowService
-} from "../../modal-window/lib"
-
-import {
-  ModalOpenAccountComponent
-} from "../../modal-window/modal-open-account/modal-open-account.component"
+// import {
+//   ModalWindowService
+// } from "../../modal-window/lib"
 
 import { Header, NavItem } from "../../enums"
+
+import { ModalOpenAccountComponent } from "../../modal-window"
+
 
 @Component({
   selector: 'sec-header',
@@ -61,6 +62,6 @@ export class HeaderSection {
   }
 
   openAccount(){
-    this.modalService.open(ModalOpenAccountComponent, { message: 'Are you sure?' });
+    this.modalService.open({ component: ModalOpenAccountComponent, data: { message: "Are you sure" } });
   }
 }

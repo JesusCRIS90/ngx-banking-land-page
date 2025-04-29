@@ -1,0 +1,1 @@
+export { ModalOpenAccountComponent } from "./modal-open-account/modal-open-account.component"
