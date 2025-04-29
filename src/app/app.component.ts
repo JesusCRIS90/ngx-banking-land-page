@@ -6,6 +6,8 @@ import {
   addValue2Storage
 } from "@beexy/tools"
 
+import { ModalWindowHostComponent } from "@beexy/ngx-modals"
+
 import {
   loadData
 } from "./utils/loadJSONData"
@@ -25,8 +27,6 @@ import {
   ErrorViewComponent
 } from "./views"
 
-
-import { ModalWindowHostComponent } from "./modal-window/lib/modal-window-host/modal-window-host.component";
 
 @Component({
   selector: 'app-root',
@@ -69,8 +69,6 @@ export class AppComponent implements OnInit {
   }
 
   protected StorageDataApp( data: Object ): boolean {
-
-    // debugger;
 
     // TODO: On this process an checker/adaptor function must be applied to assure
     // data injected on App has the Interface that App is expecting
