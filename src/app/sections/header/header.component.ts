@@ -25,6 +25,7 @@ import {
 import { Header, NavItem } from "../../enums"
 
 import { ModalOpenAccountComponent } from "../../modal-window"
+import { OpenAccountFormComponent } from "../../forms"
 
 
 @Component({
@@ -62,6 +63,7 @@ export class HeaderSection {
   }
 
   openAccount(){
-    this.modalService.open({ component: ModalOpenAccountComponent, data: { message: "Are you sure" } });
+    // this.modalService.open({ component: ModalOpenAccountComponent, data: { message: "Are you sure" } });
+    this.modalService.open({ component: OpenAccountFormComponent });
   }
 }

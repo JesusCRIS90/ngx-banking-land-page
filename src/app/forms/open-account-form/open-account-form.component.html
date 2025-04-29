@@ -1,0 +1,15 @@
+<form class="open-account-form">
+  <bee-vertical-layout>
+    <bee-title class="title" [keywords]="['5', 'minutes']">
+      Open your bank account in just 5 minutes !
+    </bee-title>
+  </bee-vertical-layout>
+  <bee-vertical-layout [policyPos]="FLEX_POLICY.NO_POLICY">
+    <input-field class="input-field" [config]="getFieldConfig(0)" />
+    <input-field class="input-field" [config]="getFieldConfig(1)" />
+    <input-field class="input-field" [config]="getFieldConfig(2)" />
+  </bee-vertical-layout>
+  <bee-vertical-layout>
+    <button (click)="onClickButtonEvent($event)" class="action">Next step →</button>
+  </bee-vertical-layout>
+</form>
