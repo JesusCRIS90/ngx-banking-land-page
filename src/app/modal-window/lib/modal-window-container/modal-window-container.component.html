@@ -1,0 +1,12 @@
+<div
+  class="modal-overlay"
+  (click)="closeModal($event)"
+>
+  <div class="modal-content" (click)="clicInsideModal($event)">
+    <!-- Close Button -->
+    <button class="modal-close-button" (click)="closeModal()">X</button>
+
+    <!-- Dynamic modal content -->
+    <ng-template #modalContainer></ng-template>
+  </div>
+</div>

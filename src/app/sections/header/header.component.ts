@@ -12,10 +12,17 @@ import {
   ImageComponent as Image
 } from "@beexy/ngx-components"
 
-
 import {
   NavItemComponent
 } from "../../components"
+
+import {
+  ModalWindowService
+} from "../../modal-window/lib"
+
+import {
+  ModalOpenAccountComponent
+} from "../../modal-window/modal-open-account/modal-open-account.component"
 
 import { Header, NavItem } from "../../enums"
 
@@ -31,6 +38,8 @@ export class HeaderSection {
   ANCHOR_POINT = ANCHOR_POINT;
 
   data = input.required<Header>();
+
+  constructor( private modalService: ModalWindowService ) {}
 
   getLogoImage():string{
     return this.data().logoImg;
@@ -52,6 +61,6 @@ export class HeaderSection {
   }
 
   openAccount(){
-    console.log('Open an Account')
+    this.modalService.open(ModalOpenAccountComponent, { message: 'Are you sure?' });
   }
 }

@@ -25,9 +25,12 @@ import {
   ErrorViewComponent
 } from "./views"
 
+
+import { ModalWindowHostComponent } from "./modal-window/lib/modal-window-host/modal-window-host.component";
+
 @Component({
   selector: 'app-root',
-  imports: [AppViewComponent, ErrorViewComponent],
+  imports: [AppViewComponent, ErrorViewComponent, ModalWindowHostComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
