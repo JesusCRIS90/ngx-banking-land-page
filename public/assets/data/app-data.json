@@ -1,6 +1,6 @@
 {
     "header":{
-        "logoImg": "/assets/images/icon.png",
+        "logoImg": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/icon.png",
         "logoName": "Bankist",
         "navItems": [
             {
@@ -30,19 +30,19 @@
             "title": "100% Digital Bank",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam debitis ducimus.",
             "icon": "monitor",
-            "img": "/assets/images/digital-lazy.jpg"
+            "img": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/digital-lazy.jpg"
         },
         {
             "title": "Watch your money grow",
             "text": "Nesciunt quos autem dolorum voluptates cum dolores dicta fuga inventore ab? Nulla incidunt eius numquam sequi iste pariatur quibusdam!",
             "icon": "trending-up",
-            "img": "/assets/images/grow-lazy.jpg"
+            "img": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/grow-lazy.jpg"
         },
         {
             "title": "Free debit card included",
             "text": "Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim eveniet consequatur odit quam quos possimus assumenda dicta fuga inventore ab.",
             "icon": "credit-card",
-            "img": "/assets/images/card-lazy.jpg"
+            "img": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/card-lazy.jpg"
         }
     ],
     "operations": [
@@ -72,7 +72,7 @@
             "person": {
                 "name": "Miyah Miles",
                 "country": "London, UK",
-                "img": "/assets/images/user-2.jpg"
+                "img": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/user-2.jpg"
             }
         },
         {
@@ -81,7 +81,7 @@
             "person": {
                 "name": "Francisco Gomes",
                 "country": "Lisbon, Portugal",
-                "img": "/assets/images/user-3.jpg"
+                "img": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/user-3.jpg"
             }
         },
         {
@@ -90,12 +90,12 @@
             "person": {
                 "name": "Aarav Lynn",
                 "country": "San Francisco, USA",
-                "img": "/assets/images/user-1.jpg"
+                "img": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/user-1.jpg"
             }
         }
     ],
     "footer": {
-        "logoSrc": "/assets/images/icon.png",
+        "logoSrc": "https://raw.githubusercontent.com/JesusCRIS90/jc-risquez-cdn/main/a-bank-for-life/images/icon.png",
         "navItems": [
             {
                 "title": "About",
