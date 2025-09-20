@@ -36,7 +36,7 @@ import {
 })
 export class AppComponent implements OnInit {
   
-  title = 'Your Reliable Bank';
+  title = 'A Bacnk for Life';
   
   private storage = inject(StoragesManager);
   
