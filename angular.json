@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "spa-2": {
+    "a-bank-for-life": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/spa-2",
+            "outputPath": "dist/a-bank-for-life",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -45,7 +45,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/ngx-banking-land-page/",
+              "deployUrl": "/ngx-banking-land-page/"
             },
             "development": {
               "optimization": false,
@@ -59,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "spa-2:build:production"
+              "buildTarget": "a-bank-for-life:build:production"
             },
             "development": {
-              "buildTarget": "spa-2:build:development"
+              "buildTarget": "a-bank-for-life:build:development"
             }
           },
           "defaultConfiguration": "development"
